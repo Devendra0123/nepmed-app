@@ -1,0 +1,26 @@
+.chat_section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.chat_section img{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.chat_section .online_icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background-color: lime;
+    position: absolute;
+    top: 5px;
+}

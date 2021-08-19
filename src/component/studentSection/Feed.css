@@ -1,0 +1,96 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+    margin-top: 6px;
+    margin-left: 6px;
+    align-items: center;
+}
+
+.truth_quote{
+    background-image: url("../../assets/nature1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    border-radius: 10px;
+   
+}
+
+.truth_quote h3{
+    background: rgba(97, 91, 91,0.5);
+    padding: 5px 8px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    border-radius: 10px;
+}
+
+.post_input_field{
+    background: rgb(174, 235, 215);
+    width: 60%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+.icon_area{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.icon{
+    background: whitesmoke;
+    border-radius: 25px;
+}
+
+.input_area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_area input{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.post_btn button{
+    width: 43px;
+    height: 43px;
+    padding: 3px 5px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.post_btn button:hover{
+    background: grey;
+    color: whitesmoke;
+}
+
+.posts{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}

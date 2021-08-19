@@ -1,0 +1,157 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.sidebar_user{
+    background-color: #ec8ce9; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sidebar_user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.sidebar_user .sidebar_user_info{
+    background-color: teal;
+    margin-top: -10px;
+    border-radius: 25px;
+    padding: 0px 10px;
+    width: 90%;
+}
+
+.sidebar_user_info h2{
+    color: #4F0E0E;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.sidebar_user_info p{
+  color: rgb(46, 41, 41);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.sidebar_user_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.user_batch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #865439;
+    padding: 3px;
+}
+
+.sidebar_user_following_group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: #ec8ce9;
+}
+
+.following_group_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    width: 100%;
+    padding: 2px 4px;
+    text-align: center;
+    color: #865439;
+   
+}
+
+.sidebar_chat_section{
+    background-color: #ec8ce9;
+    margin-top: 5px;
+    
+}
+
+.chat_section_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    width: 100%;
+    padding: 2px 4px;
+    text-align: center;
+    color: #865439;
+ 
+}
+
+.chat_section_title h3, 
+.sidebar_medical_colleges_title h3,
+.following_group_title h3
+{
+    margin-left: 5px
+}
+
+.sidebar_medical_colleges{
+    background-color: #ec8ce9;
+    margin-top: 5px;
+}
+
+.sidebar_medical_colleges_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    width: 100%;
+    padding: 2px 4px;
+    text-align: center;
+    color: #865439;
+    margin-bottom: 5px;
+}
+
+.medical_college_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 3px 7px; 
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.medical_college_search button{
+    width: 0px;
+    height: 0px;
+    display: none;
+  }
+  
+.medical_college_search input{
+      outline: none;
+      border: none;
+      padding: 3px 5px;
+      flex: 1;
+      background-color: whitesmoke;
+      font-size: 16px;
+      letter-spacing: 1.1px;
+  }
+
+  .transparent_background{
+      width: 100%;
+      background: rgba(173, 44, 44, 0.65);
+      
+  }
+
+  

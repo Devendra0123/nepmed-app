@@ -1,0 +1,9 @@
+.medical_colleges{
+    width: 100%;
+    margin-bottom: 5px;
+    box-shadow: 0 3px 5px  grey;
+    padding: 4px 10px;
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    cursor: pointer;
+}

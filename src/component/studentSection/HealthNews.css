@@ -1,0 +1,44 @@
+.health_news{
+    margin-top: 5px;
+    background:#ec8ce9;
+}
+
+.health_news_title{
+    background:greenyellow;
+    color: #865439;
+    text-align: center;
+}
+
+.single_news{
+    padding: 5px;
+}
+
+.news_title{
+    background: rgb(53, 50, 50);
+    color: white;
+    padding: 2px 5px;
+    letter-spacing: 1.2px;
+    border-radius: 5px 5px 0 0;
+}
+
+.news_content{
+    background: white;
+    color: grey;
+    border-radius: 0 0 5px 5px;
+    padding: 3px 13px;
+    position: relative;
+}
+
+.news_content button{
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.news_content button:hover{
+    background: grey;
+}

@@ -1,0 +1,17 @@
+.widget{
+    flex: 0.2;
+    margin-top: 5px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget_notice_own_college{
+    background:#ec8ce9;
+}
+
+.own_college_notice_title{
+    background:greenyellow;
+    color: #865439;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.user_group{
+    display: flex;
+    align-items: center;
+    color: #4F0E0E;
+    font-size: 16px;
+    font-weight: 520;
+    letter-spacing: 1.1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user_group img{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 5px;
+}

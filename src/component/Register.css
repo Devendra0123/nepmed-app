@@ -1,0 +1,89 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg,#ec8ce9 50%,teal 50%);
+}
+
+.register_container{
+    width: 70%;
+    height: 80vh;
+    background: rgba(97, 149, 201, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.register_logo{
+    top:-180px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.register_container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register_container form input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+}
+
+.register_container form input:focus{
+    border: 2px solid teal;
+}
+
+.register_container form input:focus label{
+   display: block;
+}
+
+.register_container form label{
+    position: relative;
+    width: fit-content;
+    left: 15px;
+    top: 10px;
+    background:  rgb(97, 149, 201);
+    z-index: 99;
+    letter-spacing: 1.2px;
+    color: lightyellow;
+    visibility: hidden;
+}
+
+.register_container form input::placeholder{
+    color: olivedrab;
+    transition: all 0.4s ease-in;
+}
+
+.register_container form input:focus::placeholder{
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.register_container form button{
+    width: 50%;
+    margin-top: 15px;
+    border-radius: 25px;
+    padding: 3px 0px;
+    font-size: 18px;
+    font-weight: 550;
+    color: limegreen;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1.3px;
+}
+
+.register_container form button:hover{
+    background: teal;
+    color: white;
+}
