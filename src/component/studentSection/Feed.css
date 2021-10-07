@@ -97,7 +97,7 @@
 
 @media only screen and (max-width:500px) {
     .feed{
-    width:100%;
+    flex:1;
     
     }
 
