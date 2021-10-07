@@ -46,3 +46,12 @@
    justify-content: space-between;
    padding: 5px 10px;
 }
+
+@media only screen and (max-width:500px){
+.user_post img{
+    object-fit: contain;
+    max-width: 98vw;
+}
+}
+
+
