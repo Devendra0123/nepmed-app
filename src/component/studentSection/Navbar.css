@@ -92,7 +92,7 @@
 }
 
 @media only screen and (max-width:500px) {
-    .navbar_search{
+    .navbar_left > .navbar_search{
     display:none;
     }
 
