@@ -94,3 +94,11 @@
     flex-wrap: wrap;
     
 }
+
+@media only screen and (max-width:500px) {
+    .feed{
+    width:100%;
+    
+    }
+
+}
