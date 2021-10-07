@@ -11,7 +11,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { pink } from '@material-ui/core/colors';
 
 function Post() {
-  const [posts, setPosts] = useState(null);
+  const [posts, setPosts] = useState("");
 
   const fetchPosts= async() =>
   await axios.get("https://devendra13.herokuapp.com/sync").then(response=>{
