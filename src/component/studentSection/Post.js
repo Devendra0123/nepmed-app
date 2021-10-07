@@ -11,7 +11,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { pink } from '@material-ui/core/colors';
 
 function Post() {
-  const [posts, setPosts] = useState("");
+  const [posts, setPosts] = useState(null);
 
   const fetchPosts= async() =>
   await axios.get("https://devendra13.herokuapp.com/sync").then(response=>{
@@ -43,7 +43,7 @@ function Post() {
     return (
       <div className="posts">
         {
-          posts.length !== 0 ? posts.map(item=>{
+          posts ? posts.map(item=>{
            return (<div key={item._id} className="post">
           <div className="post_top_section">
           <div className="user_info">
