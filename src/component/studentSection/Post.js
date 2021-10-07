@@ -7,6 +7,8 @@ import ShareIcon from '@material-ui/icons/Share';
 import { IconButton } from '@material-ui/core';
 import axios from "axios";
 import Pusher from "pusher-js"
+import CircularProgress from '@material-ui/core/CircularProgress';
+import { pink } from '@material-ui/core/colors';
 
 function Post() {
   const [posts, setPosts] = useState(null);
@@ -41,7 +43,7 @@ function Post() {
     return (
       <div className="posts">
         {
-          posts ? posts.map(item=>{
+          posts.length !== 0 ? posts.map(item=>{
            return (<div key={item._id} className="post">
           <div className="post_top_section">
           <div className="user_info">
@@ -65,7 +67,7 @@ function Post() {
             <ShareIcon />
           </div>
         </div>)
-          }) : <h1>No feed</h1>
+          }) : <CircularProgress className="progressBar" style={{ color: pink[500] }} size={35}/>
         }
       </div>  
     )
