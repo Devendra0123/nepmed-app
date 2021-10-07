@@ -12,7 +12,7 @@ function Post() {
   const [posts, setPosts] = useState(null);
 
   const fetchPosts= async() =>
-  await axios.get("http://localhost:5000/sync").then(response=>{
+  await axios.get("https://devendra13.herokuapp.com/sync").then(response=>{
   console.log(response);
   setPosts(
     response.data.sort((a, b) => 
