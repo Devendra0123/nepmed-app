@@ -51,7 +51,7 @@ function EnterPostField() {
       data.append("file", file);
       data.append("text", text);
       try {
-        axios.post("http://localhost:5000/upload",{
+        axios.post("https://devendra13.herokuapp.com/upload",{
           caption: text,
           image: file
         });
