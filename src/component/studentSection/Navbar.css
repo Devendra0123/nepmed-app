@@ -90,3 +90,10 @@
     border-radius: 8px;
     padding: 0px 5px;
 }
+
+@media only screen and (max-width:500px) {
+    .navbar_search{
+    display:none;
+    }
+
+}
