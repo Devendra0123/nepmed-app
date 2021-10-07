@@ -47,7 +47,7 @@ function Navbar() {
            </div>
               <div className="navbar_user">
                  
-                  <img src="https://www.facebook.com/photo/?fbid=481296872030546&set=a.119393948220842" alt="user"/>
+                  <img src="https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?k=20&m=1179420343&s=612x612&w=0&h=G2UGMVSzAXGAQs3pFZpvWlHNRAzwPIWIVtSOxZHsEuc=" alt="user"/>
                 
                   <span>Devendra</span>          
               </div>
